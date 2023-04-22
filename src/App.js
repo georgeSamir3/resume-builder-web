@@ -9,16 +9,16 @@ import PdfComponent from './components/PdfComponent';
 
 function App() {
   return (
-    <Container fluid className="bg-white p-0">
+    <Container fluid className="p-0" style={{backgroundColor:"#f9f5ec"}}>
 
-      <Navigation></Navigation>
+      {/* <Navigation></Navigation> */}
 
       <Routes>
         <Route path="/" element={ <Resume/> } exact></Route>
         <Route path="/preview" element={<PdfComponent/>}></Route>
       </Routes>
       
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
 
     </Container>
   );

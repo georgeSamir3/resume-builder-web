@@ -12,8 +12,10 @@ function Resume() {
   return (
     <Fragment>
 
-      <Container fluid className="p-0 top-image"></Container>
-      <Container>
+      <div className='row'>
+
+      <div className='col-1'></div>
+      <Container className='col-7' style={{marginTop:"150px"}}>
 
         <Profile></Profile>
 
@@ -32,6 +34,9 @@ function Resume() {
         </div>
 
       </Container>
+      <Container fluid className="p-0 top-image col-3" style={{marginTop:"100px"}} ></Container>
+      <div className='col-1'></div>
+      </div>
     </Fragment>
   )
 }

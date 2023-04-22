@@ -2,7 +2,11 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f9f5ec;
 }
+/* *{
+  background-color: bisque;
+} */
 .color-blue {
   color: #17a2b8;
 }
@@ -31,11 +35,13 @@ body {
 }
 /* ============================== */
 .top-image {
-  min-height: 150px;
-  background-image: url("../public/images/background-3.jpg"); 
+  /* min-height: 150px; */
+  max-height: 550px;
+  background-image: url("../public/images/bg.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
+  border-radius: 30%;
 }
 
 .img-column {

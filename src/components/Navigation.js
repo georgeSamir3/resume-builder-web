@@ -7,15 +7,15 @@ import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
-    <Navbar bg="primary" variant="primary" className="border-bottom" sticky="top">
+    <Navbar bg="light" variant="primary" className="border-bottom" sticky="top">
       <Container>
         <Navbar.Brand>
           {/* {logo} */}
-          <NavLink to="/" className="text-decoration-none text-white">Resume Builder</NavLink>
+          <NavLink to="/" className="text-decoration-none ">Resume Builder</NavLink>
         </Navbar.Brand>
         <Nav className="me-auto">
-          <NavLink to="/" className="mx-2 text-decoration-none text-white">Home</NavLink>
-          <NavLink to="#" className="mx-2 text-decoration-none text-white">About</NavLink>
+          <NavLink to="/" className="mx-2 text-decoration-none ">Home</NavLink>
+          <NavLink to="#" className="mx-2 text-decoration-none ">About</NavLink>
         </Nav>
       </Container>
     </Navbar>
